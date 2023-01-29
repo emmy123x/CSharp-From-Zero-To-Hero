@@ -69,7 +69,7 @@ namespace BootCamp.Chapter.Tests
             var consoleOutput = ConsoleStub.StubConsole(input);
 
             // This is being tested
-            var convertedInput = Checks.PromptFloat(PromptMessage);
+            var convertedInput = Checks.PromptDouble(PromptMessage);
 
             // Verify that prompted message is as expected
             var promptedMessage = consoleOutput.ToString().Trim();
